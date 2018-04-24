@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main, header, footer {
+	background: grey;
+	max-width: 75vw;
+	margin: auto;
+}
+
+header {
+	width: 75vw;
+	background: lightgray;
+	border-bottom: 1px solid gray;
+	text-align: center;
+}
+
+footer {
+	width: 75vw;
+	background: lightgray;
+	border-top: 1px solid gray;
+	text-align: center;
+}
+
+main {
+	width: 75vw;
+	background: lightgray;
+	
+}
+
+header h1 {
+	padding: 20px 0;
+}
+
+.body-container {
+	width: 800px;
+	margin: auto;
+	height: 75vh;
+	display: flex;
+	background: lightgray;
+}
+
+.left-col {
+	background: gray;
+	align-self: flex-start;
+	margin: 15px;
+}
+
+.right-col {
+	background: gray;
+	margin: 15px;
+}
+
+.right-col p {
+	padding: 20px;
+}
+
+#input1 {
+
+}
